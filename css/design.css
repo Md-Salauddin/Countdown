@@ -1,0 +1,82 @@
+/*input font, bg, width, text-color*/
+.inputField{
+	width: 75px;
+	text-align: center;
+	font-size: 60px;
+	color: #34495E;
+	background-color: #fff;
+}
+
+/*lable size*/
+.text {
+	font-size: 20px;
+}
+
+/*whole section*/
+.main {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	right: 20px;
+    width: auto;
+    height: auto;
+    border: 3px solid #34495E;
+}
+
+/*timer section*/
+.left {
+    position: relative;
+    float: right;
+    width: 850px;
+    height: 600px;
+    background-color: #3498DB;
+}
+
+.left-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);   
+    background: #5DADE2;
+}
+
+.boxPosition {
+	display: inline-block;
+	margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*controller*/
+.right {
+	position: relative;
+    float: left;
+    width: 450px;
+    height: 600px;
+   /* background-color: #EAECEE;*/
+}
+
+.right-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-30%, -30%);  
+    transform: translate(-50%, -50%);   
+}
+
+.form-control {
+	width: 75px;
+}
+
+.table {
+	background-color: #fff;
+}
+
+/*countdown heading*/
+h1 {
+	text-align: center;
+	color: #F8F9F9;
+}
